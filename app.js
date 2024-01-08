@@ -11,11 +11,11 @@ window.onscroll = function () {
     navbar.classList.add('sticky');
 
     if (prevScrollpos > currentScrollPos) {
-      navbar.style.top = "100%";
+      navbar.style.top = "0%";
     }
 
     else {
-      navbar.style.top = "-50%";
+      navbar.style.top = "0%%";
     }
   }
 
