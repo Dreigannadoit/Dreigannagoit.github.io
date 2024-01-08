@@ -11,11 +11,11 @@ window.onscroll = function () {
     navbar.classList.add('sticky');
 
     if (prevScrollpos > currentScrollPos) {
-      navbar.style.top = "0%";
+      navbar.style.transform = "translate(0%, 0%)";
     }
 
     else {
-      navbar.style.top = "0%%";
+      navbar.style.transform = "translate(0%, -100%)";
     }
   }
 
